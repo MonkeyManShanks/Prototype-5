@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 4671521053669168659}
   - component: {fileID: 4671521053665777203}
   - component: {fileID: 4671521053666743539}
+  - component: {fileID: 8834622122462077946}
+  - component: {fileID: 8834622122462077945}
+  - component: {fileID: 8834622122462077944}
   m_Layer: 0
   m_Name: Good 3
   m_TagString: Untagged
@@ -25,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4671521053668936243}
-  m_LocalRotation: {x: 0.008182102, y: 0.7112496, z: -0.70284325, w: -0.008279965}
+  m_LocalRotation: {x: 0.008182913, y: 0.7112502, z: -0.70284265, w: -0.008281559}
   m_LocalPosition: {x: 1.7523017, y: 7.2016754, z: -0.000000008512677}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
@@ -77,3 +80,46 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!54 &8834622122462077946
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4671521053668936243}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8834622122462077945
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4671521053668936243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45970118, y: 0.13234879, z: 0.55363184}
+  m_Center: {x: -6.7077217e-16, y: -4.672651e-14, z: -0.00000019371514}
+--- !u!114 &8834622122462077944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4671521053668936243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf4e89b87a0a4e238093961e53605e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 0
+  explosionParticle: {fileID: 0}
